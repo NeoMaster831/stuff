@@ -1,0 +1,8 @@
+strdata = input('정렬할 문자열: ')
+ret1 = sorted(strdata)
+ret2 = sorted(strdata, reverse=True)
+print(ret1, ret2)
+ret1 = ''.join(ret1)
+ret2 = ''.join(ret2)
+print('오름차순:' + ret1)
+print('내림차순:' + ret2)
